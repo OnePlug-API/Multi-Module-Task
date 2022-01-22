@@ -9,7 +9,8 @@ import java.util.List;
 
 @Data
 public class AccountHolderDto {
-
+    private String NIN;
+    private String pvcNumber;
     private String firstname;
     private String lastname;
     private String otherName;

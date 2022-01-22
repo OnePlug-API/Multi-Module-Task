@@ -14,6 +14,8 @@ public class InvestmentHolder {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    private String NIN;
+    private String pvcNumber;
     private String firstname;
     private String lastname;
     private String otherName;
