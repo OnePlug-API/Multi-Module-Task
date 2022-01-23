@@ -1,2 +1,10 @@
-package pensionRepo;public interface PensionHolderRepository {
+package pensionRepo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import pension.PensionHolder;
+
+@Repository
+public interface PensionHolderRepository extends JpaRepository<PensionHolder, Long> {
+
 }

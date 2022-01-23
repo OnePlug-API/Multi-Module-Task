@@ -1,2 +1,18 @@
-package com.oneplug.controller;public class WebApp {
+package com.oneplug.controller;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+
+
+@SpringBootApplication
+@EntityScan(basePackages = {"com.oneplug.*"})
+@EnableJpaRepositories(basePackages = {"com.oneplug.*"})
+public class OnePlugWebApplication {
+
+    public static void main(String[] args){
+
+        SpringApplication.run(OnePlugWebApplication.class, args);
+    }
 }
