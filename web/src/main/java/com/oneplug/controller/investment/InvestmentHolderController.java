@@ -1,8 +1,8 @@
 package com.oneplug.controller.investment;
 
-import investmentDto.InvestmentDto;
-import investmentDto.InvestmentHolderDto;
-import investmentService.InvestmentService;
+import com.oneplug.model.investmentDto.InvestmentDto;
+import com.oneplug.model.investmentDto.InvestmentHolderDto;
+import com.oneplug.service.investmentService.InvestmentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

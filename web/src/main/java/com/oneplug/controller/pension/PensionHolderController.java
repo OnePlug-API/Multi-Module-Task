@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pensionDto.PensionDto;
-import pensionDto.PensionHolderDto;
-import pensionService.PensionService;
+import com.oneplug.model.pensionDto.PensionDto;
+import com.oneplug.model.pensionDto.PensionHolderDto;
+import com.oneplug.service.pensionService.PensionService;
 
 @RestController
 @RequestMapping("/pensionUser")

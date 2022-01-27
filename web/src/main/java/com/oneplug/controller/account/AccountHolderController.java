@@ -1,8 +1,8 @@
 package com.oneplug.controller.account;
 
-import accountDto.AccountDto;
-import accountDto.AccountHolderDto;
-import accountService.AccountService;
+import com.oneplug.model.accountDto.AccountDto;
+import com.oneplug.model.accountDto.AccountHolderDto;
+import com.oneplug.service.accountService.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
