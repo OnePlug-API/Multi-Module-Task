@@ -33,7 +33,7 @@ class PensionHolderRepositoryTest {
     }
 
     @Test
-    void saveInvestmentHolder() {
+    void savePensionHolder() {
         pensionHolderRepository.save(pensionHolder);
         PensionHolder fetchPensionHolder = pensionHolderRepository.findById(pensionHolder.getId()).get();
         Assertions.assertEquals(1, fetchPensionHolder.getId());
